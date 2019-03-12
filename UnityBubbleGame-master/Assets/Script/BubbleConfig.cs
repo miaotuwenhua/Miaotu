@@ -7,7 +7,7 @@ using UnityEditor;
 
 [ExecuteInEditMode]
 public class BubbleConfig : MonoBehaviour {
-
+    public int mm;
 	public int sortCol=3;
 	public float sortLen=62f;
 	public bool isSortView = false;
